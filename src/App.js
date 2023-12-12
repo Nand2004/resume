@@ -82,7 +82,7 @@ const App = () => {
             <ul>
               <li>Created a portfolio website showcasing comprehensive information for prospective employers.</li>
               <li>Provides an interactive platform for employers to get in touch.</li>
-              <li><a href="https://github.com/Nand2004/Nand-Patel-Resume-Website" target="_blank">GitHub Repository</a></li>
+              <li><a href="https://github.com/Nand2004/resume" target="_blank">GitHub Repository</a></li>
             </ul>
           </li>
           <li>

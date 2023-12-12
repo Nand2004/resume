@@ -45,6 +45,7 @@ body {
   border-bottom: 2px solid #e0e0e0;
 }
 
+
 .contact h2 {
   color: #fff;
 }
@@ -75,7 +76,7 @@ section {
 
 section:hover {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-  transform: rotateY(6deg);
+  transform: rotateY(10deg);
 }
 
 h2 {
