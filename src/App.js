@@ -4,7 +4,7 @@ import React from "react";
 import "./App.css";
 
 const App = () => {
- 
+
   const handleContactMe = () => { //Will let the viewer contact me on my Email Address
     const subject = encodeURIComponent("Contact Me");
     const body = encodeURIComponent("Hello Nand Patel, I would like to get in touch with you.\nCompany Name: \nPosition: ");
@@ -27,6 +27,7 @@ const App = () => {
           <li>631 Eastern Ave, Apt#10, Lynn, MA, 01902</li>
           <li>(603) 866-4526</li>
           <li>patelnand13204@gmail.com</li>
+          <li> <a target="_blank" href="https://www.linkedin.com/in/nand-patel-b88185271/"> Connect Me On linkedin </a> </li>
         </ul>
         <button className="contact_button" onClick={handleContactMe}>
           Contact Me
@@ -59,141 +60,72 @@ const App = () => {
         <h2>PROJECTS</h2>
         <ul>
           <li>
-            <b>Salem State University Social Media App</b> —
-            HTML/JavaScript/REACT/MongoDB/NODE
+            <b>Salem State University Social Media App</b> — HTML/JavaScript/REACT/MongoDB/NODE
+            <ul>
+              <li>Developed a comprehensive web application enabling students to share social media posts.</li>
+              <li>Integrated multiple APIs, created schemas, and implemented MongoDB.</li>
+              <li>Followed Agile methodology during development.</li>
+              <li><a href="https://ssu-social-app.onrender.com/" target="_blank">Live Demo</a></li>
+            </ul>
           </li>
-          <ul>
-            <li>
-              The SSU social media app is a large web application that lets
-              students share social media posts. This is one of the most
-              ambitious projects which me and my friends worked on.
-              <ul>
-                <li>
-                  Created schemas and integrated multiple API's.
-                </li>
-                <li>
-                  Implemented a MongoDB.
-                </li>
-                <li>
-                  Developed in an Agile format.
-                </li>
-              </ul>
-              <li>
-                <a href="https://ssu-social-app.onrender.com/" target="_blank">
-                  Check out the Social Media App on Live Server.
-                </a>
-              </li>
-            </li>
-          </ul>
           <li>
             <b>MBTA Accessibility Tracker</b> — HTML/JavaScript/REACT/Node/CSS
+            <ul>
+              <li>Designed a web application that retrieves and displays MBTA stop accessibility information.</li>
+              <li>Implemented a forum for users to rate stops and leave comments.</li>
+              <li>Developed a backend database and RESTful API.</li>
+              <li><a href="https://github.com/Nand2004/MBTA-Station-App" target="_blank">GitHub Repository</a></li>
+            </ul>
           </li>
-          <ul>
-            <li>
-              Created a web application retrieving information from the MBTA’s
-              API and displaying which stops are handicap accessible.
-              <ul>
-                <li>
-                  Created a forum where users can rate a stop’s accessibility,
-                  give ratings, and leave comments.
-                </li>
-                <li>Developed a backend database and RESTful API.</li>
-              </ul>
-              <li>
-                <a
-                  href="https://github.com/Nand2004/MBTA-Station-App"
-                  target="_blank"
-                >
-                  {" "}
-                  Check out the MBTA Accessibility App on GitHub.
-                </a>
-              </li>
-            </li>
-          </ul>
           <li>
             <b>Portfolio</b> — React
+            <ul>
+              <li>Created a portfolio website showcasing comprehensive information for prospective employers.</li>
+              <li>Provides an interactive platform for employers to get in touch.</li>
+              <li><a href="https://github.com/Nand2004/Nand-Patel-Resume-Website" target="_blank">GitHub Repository</a></li>
+            </ul>
           </li>
-          <ul>
-            <li>
-              In today's highly competitive job market, it is essential for an
-              employee to distinguish themselves. To stand out and sharpen my
-              React skills, I designed a 3D portfolio website that not only
-              showcases my comprehensive information for prospective employers
-              but also provides them with an opportunity to get in touch with
-              me.
-            </li>
-            <li>
-              <a
-                href="https://github.com/Nand2004/Nand-Patel-Resume-Website"
-                target="_blank"
-              >
-                {" "}
-                Check out the online resume on Github
-              </a>
-            </li>
-          </ul>
           <li>
             <b>TicTacToe</b> — Java
+            <ul>
+              <li>Developed a Tic-Tac-Toe simulator with various difficulty settings.</li>
+              <li>Offers the option to play against a human or computer opponent.</li>
+              <li><a href="https://github.com/Nand2004/TicTacToe" target="_blank">GitHub Repository</a></li>
+            </ul>
           </li>
-          <ul>
-            <li>
-              Developed a Tic-Tac-Toe simulator featuring a range of difficulty
-              settings, offering users the option to play against either a human
-              opponent or a computer.
-            </li>
-            <li>
-              <a href="https://github.com/Nand2004/TicTacToe" target="_blank">
-                {" "}
-                Check out the TicTacToe on Github
-              </a>
-            </li>
-          </ul>
           <li>
             <b>Calculator</b> — Java
-          </li>
-          <ul>
-            <li>
-              This Calculator App is a versatile tool that provides a
-              user-friendly interface for performing a wide range of
-              mathematical operations. Whether you need to execute basic
-              arithmetic, advanced algebraic calculations, or trigonometric
-              functions, this app has you covered.
-            </li>
-            <li>
-              <a href="https://github.com/Nand2004/Calculator" target="_blank">
-                {" "}
-                Check out the Calculator on Github
-              </a>
-            </li>
-          </ul>
-          <li>
-            <b>Various Small Projects</b> — Java / JS / Scripting / DSA etc..
+            <ul>
+              <li>Designed a versatile calculator app for basic to advanced mathematical operations.</li>
+              <li>Supports arithmetic, algebraic calculations, and trigonometric functions.</li>
+              <li><a href="https://github.com/Nand2004/Calculator" target="_blank">GitHub Repository</a></li>
+            </ul>
           </li>
           <li>
-            Dedicated hundreds of hours to enhancing my proficiency in various
-            programming languages and deepening my understanding of language
-            fundamentals, as well as data structures and algorithms. To
-            practice, in addition to my coursework, I utilized FreeCodeCamp to
-            learn new languages and tackled various LeetCode problems to enhance
-            my knowledge of data structures and algorithms.
+            <b>Various Small Projects</b> — Java / JS / Scripting / DSA etc.
+            <ul>
+              <li>Dedicated hundreds of hours to enhance proficiency in programming languages and data structures.</li>
+              <li>Utilized FreeCodeCamp for learning new languages and tackled LeetCode problems.</li>
+            </ul>
           </li>
         </ul>
       </section>
+
 
       <section className="skills">
         <h2>SKILLS</h2>
         <ul>
           <li>Java</li>
           <li>JavaScript / React</li>
+          <li>HTML / CSS</li>
           <li>Node / PHP</li>
           <li>MongoDb / SQL</li>
           <li>Restful API</li>
-          <li>HTML / CSS</li>
           <li>Data Science</li>
           <li>AI / Machine Learning</li>
-          <li>Github</li>
           <li>Software Development</li>
           <li>CI-CD Process</li>
+          <li>Github</li>
         </ul>
       </section>
 

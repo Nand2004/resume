@@ -75,7 +75,7 @@ section {
 
 section:hover {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-  transform: rotateY(13deg);
+  transform: rotateY(6deg);
 }
 
 h2 {
