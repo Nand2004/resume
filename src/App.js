@@ -1,9 +1,24 @@
 // App.js
 
 import React from "react";
+import html2pdf from "html2pdf.js";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css";
 
 const App = () => {
+
+  const [downloadClicked, setDownloadClicked] = React.useState(false);
+
+  const handleDownload = () => { //Will let the user download the HTML in PDF form.
+    const element = document.getElementById("resume-container");
+
+    if (element) {
+      html2pdf(element, {
+        filename: "Nand's Resume.pdf", // Specify the desired filename
+      });
+      setDownloadClicked(true);
+    }
+  };
 
   const handleContactMe = () => { //Will let the viewer contact me on my Email Address
     const subject = encodeURIComponent("Contact Me");
@@ -13,7 +28,7 @@ const App = () => {
   };
 
   return (
-    <div className="resume-container">
+    <div className="resume-container" id="resume-container">
       <header className="header">
         <div className="header-content">
           <h1>Nand Patel</h1>
@@ -149,6 +164,13 @@ const App = () => {
           </a>
         </p>
       </footer>
+
+
+      <button className="download-button" onClick={handleDownload} download="resume.pdf">
+        <i className="fas fa-download"></i> Download PDF
+      </button>
+
+
     </div>
   );
 };

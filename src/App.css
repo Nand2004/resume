@@ -79,6 +79,20 @@ section:hover {
   transform: rotateY(10deg);
 }
 
+.download-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
 h2 {
   color: #3498db;
 }
