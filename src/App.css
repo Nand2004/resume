@@ -1,38 +1,90 @@
-.App {
+/* App.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  color: #333;
+  line-height: 190%;
+}
+
+.resume-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #fff, #f3f3f3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+  perspective: 1000px;
+
+}
+
+/* Header Styles */
+.header {
+  background: linear-gradient(to right, #434343, #262626);
+  color: #fff;
+  padding: 40px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-content {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header h1 {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Contact Styles */
+.contact {
+  padding: 20px;
+  background: linear-gradient(to right, #f4d03f, #16a085);
+  border-bottom: 2px solid #e0e0e0;
 }
 
-.App-link {
-  color: #61dafb;
+.contact h2 {
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-info p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.contact_button{
+  font-size: 17px;
+  background: linear-gradient(to right, #f4d03f, #16a085);
+  margin-left: 12px;
+}
+
+/* Section Styles (Education, Experience, etc.) */
+section {
+  margin: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: transform 0.5s;
+}
+
+section:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  transform: rotateY(13deg);
+}
+
+h2 {
+  color: #3498db;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
 }
